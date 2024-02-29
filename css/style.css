@@ -1,0 +1,155 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* header.html */
+.header__container{
+    background-color: black;
+    padding: 1rem 0;
+}
+
+.header__container img{
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    width: 12rem;
+    height: auto;
+}
+
+
+/* navbar.html */
+.navbar__container {
+    background: rgb(0, 0, 0);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(73, 73, 73, 1) 100%);
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 2rem;
+    max-width: 1000px;
+    margin: 0 auto;
+    color: white;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+nav li {
+    margin: 0 1.5rem;
+    font-size: 1rem;
+}
+
+nav a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+nav a:hover {
+    color: grey;
+    cursor: pointer;
+}
+
+/* footer.html */
+.footer__container {
+    background-color: black;
+}
+
+.footer__container p {
+    color: white;
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+/* right.html */
+.right__container {
+    background-color: #1DB954;
+}
+
+.right__container ul {
+    list-style: none;
+}
+
+.right__container li {
+    margin: 1rem 0;
+}
+
+.right__container a {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+}
+
+.right__container a:hover {
+    color: white;
+}
+
+fieldset {
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+fieldset legend {
+    background-color: black;
+    padding: 0.5rem;
+    border: 2px solid black;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+/* left.html */
+.left__container {
+    background-color: #1DB954;
+}
+
+.left__container ul {
+    list-style: none;
+}
+
+.left__container li {
+    margin: 1rem 0;
+}
+
+.left__container a {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+}
+
+.left__container a:hover {
+    color: white;
+}
+
+.musik {
+    width: 10rem;
+    margin: 3rem auto auto 0.5rem;
+}
+
+/* gallery.html */
+.gallery__container{
+    background-color: lightgrey;
+}
+
+.gallery__container h1{
+    text-align: center;
+}
+
+.gambar__pemandangan{
+    width: 45%;
+    height: 50%;
+    margin: 1rem;
+}
+
+.gambar__mobil{
+    width: 45%;
+    height: 100%;
+}
